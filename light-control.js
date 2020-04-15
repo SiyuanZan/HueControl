@@ -92,23 +92,38 @@ function setup() {
 
 function draw(){
 
-  if(if1){
+ if(if1){
   sname='all off';
+  
   }else if(if2){
     sname='all on';
-  }else if(if3){
-    sname='Walk&openning';
-  }else if(if4){
-   sname='blue/purple flash';
-  }else if(if5){
-   sname='highlight face';
-  }else if(if6){
-    sname='walk&openning2';
-  }else if(if7){
-    sname='Changing CT';
-  }else if(if8){
-    sname='Walk(off) & CT (off)';
+
   }
+   if(if3){
+    sname='Walk&openning';
+
+  }
+   if(if4){
+   sname='blue/purple flash';
+
+  }
+  if(if5){
+   sname='highlight face';
+  
+  }
+   if(if6){
+    sname='walk&openning2';
+
+  }
+   if(if7){
+    sname='Changing CT';
+  
+  }
+   if(if8){
+    sname='Walk(off) & CT (off)';
+    
+  }
+
 
   fill(0, 0, 0,150);
   rect(350, 20, 600, 650);
