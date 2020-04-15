@@ -169,7 +169,14 @@ function getLights(result) {
 
 function lightOff() {
   
-if1=true;
+ if1=true;
+ if2=false;
+ if3=false;
+ if4=false;
+ if5=false;
+ if6=false;
+ if7=false;
+ if8=false;
 //  var ifOn = this.value(); // get the value of this slider
  var lightState = {             // make a JSON object with it
   //  bri: brightness,
@@ -191,6 +198,14 @@ Winter themed
 
 function lightUp() {
   if2=true;
+  if1=false;
+ if3=false;
+ if4=false;
+ if5=false;
+ if6=false;
+ if7=false;
+ if8=false;
+
     var brightness = 255; // get all lights light up 
    var lightState = {             
     bri: brightness,
@@ -227,6 +242,14 @@ function lightUp() {
 
   function myCheckedSeq1(){
      if3=true;
+
+     if2=false;
+   if1=false;
+ if4=false;
+ if5=false;
+ if6=false;
+ if7=false;
+ if8=false;
     sequence1();
    
   }
@@ -263,6 +286,13 @@ function lightUp() {
 
   function myCheckedSeq2(){
      if4=true;
+     if2=false;
+ if3=false;
+ if1=false;
+ if5=false;
+ if6=false;
+ if7=false;
+ if8=false;
       setTimeout(sequence4, 0);
       setTimeout(sequence3, 3000);
       setTimeout(sequence4, 6000);
@@ -355,6 +385,13 @@ function lightUp() {
 
   function myCheckedSeq3(){
      if5=true;
+     if2=false;
+ if3=false;
+ if4=false;
+ if1=false;
+ if6=false;
+ if7=false;
+ if8=false;
       sequence5();
    
   }
@@ -396,6 +433,13 @@ function lightUp() {
 
  function myCheckedSeq4(){
      if6=true;
+     if2=false;
+ if3=false;
+ if4=false;
+ if5=false;
+ if1=false;
+ if7=false;
+ if8=false;
       setTimeout(sequence6, 0);
       setTimeout(lightOff, 10000);
    
@@ -437,6 +481,13 @@ function lightUp() {
 
   function myCheckedSeq5(){
      if7=true;
+     if2=false;
+ if3=false;
+ if4=false;
+ if5=false;
+ if6=false;
+ if1=false;
+ if8=false;
       sequence7();
    
   }
@@ -482,6 +533,13 @@ function lightUp() {
 
   function myCheckedSeq6(){
      if8=true;
+     if2=false;
+    if3=false;
+    if4=false;
+   if5=false;
+   if6=false;
+   if7=false;
+   if1=false;
       sequence8();
    
   }
